@@ -16,8 +16,14 @@ const MovieProvider = (props) => {
     },
   ]);
 
+  const [age, setAge] = useState(20);
+  const addOneToAge = () => setAge(age + 1);
+  const addFiveToAge = () => setAge(age + 5);
+
   return (
-    <MovieContext.Provider value={[movies, setMovies]}>
+    <MovieContext.Provider
+      value={([movies, setMovies], age, addOneToAge, addFiveToAge)}
+    >
       {props.children}
     </MovieContext.Provider>
   );
