@@ -1,8 +1,10 @@
 import React, { useState, createContext } from "react";
 
+// CREATE CONTEXT
 const MovieContext = createContext();
 
 const MovieProvider = (props) => {
+  // STATES TO SHARE
   const [movies, setMovies] = useState([
     {
       name: "Inception",

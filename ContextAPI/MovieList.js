@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { MovieContext } from "./MovieContext";
 
 function MovieList() {
+  // DESTRUCTURE THE CONTEXT WHICH IS IMPORTED.
   const [movies, setMovies] = useContext(MovieContext);
   console.log(movies);
 
