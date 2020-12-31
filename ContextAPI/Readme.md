@@ -46,3 +46,14 @@ Every Context object comes with a Provider React component that allows consuming
 ```
 
 A React component that subscribes to context changes. This lets you subscribe to a context within a function component.
+
+## REACT HOOKS
+
+### useContext
+
+Used to consume a context in a functional components. useContext creates a “context” at the top level and allows it to be “used” anywhere in the hierarchy.
+
+```
+const value = useContext(MyContext);
+
+```
