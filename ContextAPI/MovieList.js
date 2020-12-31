@@ -3,6 +3,7 @@ import { MovieContext } from "./MovieContext";
 
 function MovieList() {
   // DESTRUCTURE THE CONTEXT WHICH IS IMPORTED.
+  // useContext Hook
   const [movies, setMovies] = useContext(MovieContext);
   console.log(movies);
 
