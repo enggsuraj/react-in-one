@@ -1,6 +1,6 @@
-## Functional Programming
+## 🗃 Functional Programming
 
-Functional Programming : The program consists entirely of functions. Even the main program is a function, which receives input as an argument and generates output as its result.
+💡 Functional Programming : The program consists entirely of functions. Even the main program is a function, which receives input as an argument and generates output as its result.
 
 ![fn](https://user-images.githubusercontent.com/6918020/103434025-3151ac80-4c21-11eb-8683-915d31ab76ef.png)
 
@@ -15,9 +15,9 @@ Functional Programming : The program consists entirely of functions. Even the ma
 - The state doesn’t change (i.e. it’s immutable).
 - The order of code execution is not important.
 
-## Functional Programming in React
+## 🗄 Functional Programming in React
 
-In React, everything in user Interface is a component. The components put together can create other components. So the application is itself is a component.
+🧱 In React, everything in user Interface is a component. The components put together can create other components. So the application is itself is a component.
 
 - Functional programming allows us to write cleaner and more modular code. By writing smaller and simpler functions that are isolated in scope and logic, we can make code much easier to test, maintain and debug.
 
